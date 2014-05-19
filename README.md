@@ -7,3 +7,9 @@ imgspread spreads a thumbnail to a biger image inside the text and pans the surr
 
 Sometimes an alternative to [fancyboxing](http://fancybox.net).
 
+
+TODO:
+
+* srcset
+* big image with url logic
+
