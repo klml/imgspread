@@ -1,7 +1,7 @@
 imgspread
 =========
 
-imgspread spreads a thumbnail to a bigger image inside the text and pans the surround or beneath text
+imgspread spreads a thumbnail to a bigger image inside the text and pans the surrounding or beneath text.
 
 [Demo](http://klml.github.io/imgspread/) and kind a [Gallery](http://klml.github.io/imgspread/gallery.html).
 
@@ -27,4 +27,3 @@ Has anybody similar approaches? fork or <earth@klml.de>
 
 * srcset
 * big image with url logic
-
