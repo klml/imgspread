@@ -3,9 +3,9 @@ imgspread
 
 imgspread spreads a thumbnail to a bigger image inside the text and pans the surround or beneath text
 
-[Demo](http://klml.github.io/imgspread/)
+[Demo](http://klml.github.io/imgspread/) and kind a [Gallery](http://klml.github.io/imgspread/gallery.html).
 
-Imho an unobtrusive alternative to [fancyboxing](http://fancybox.net).
+Imho an unobtrusive alternative to [modal window](https://en.wikipedia.org/wiki/Modal_window) like[fancyboxing](http://fancybox.net).
 
 ## Similar approach
 
@@ -16,8 +16,8 @@ Imho an unobtrusive alternative to [fancyboxing](http://fancybox.net).
 
 Usability pros and cons:
 
-+ there is no [modal window](https://en.wikipedia.org/wiki/Modal_window), so the main window still __can__ be used and seen. 
-+ if there is no JS you get an __unobtrusive__ thumb and link to the big version
++ there is __no modal window__, so the main window still __can__ be used and seen. 
++ if there is no JS: you get an __unobtrusive__ thumb and link to the big version
 - __word wraps__ in continuous text changes every time you zoom in a image
 
 
