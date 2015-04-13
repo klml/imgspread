@@ -26,7 +26,7 @@
 </head>
 <body>
     <a href="https://github.com/klml/imgspread">imgspread</a> spreads a thumbnail to a bigger image inside the text and pans the surround or beneath text
-    <div id="panel">
+    <div id="imgspread">
         <p>
             <a href="//lorempixel.com/600/400/nature/4/" class="imgspread left" >
                 <img src="//lorempixel.com/150/100/nature/4/" alt="example img" />
@@ -38,5 +38,12 @@
     </div>
     <script src="//cdn.jsdelivr.net/g/jquery@2.1.0" type="text/javascript"></script>
     <script src="imgspread.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#imgspread a').imgspread();
+    });    
+    </script>
+
 </body>
 </html>
