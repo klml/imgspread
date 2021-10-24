@@ -7,6 +7,29 @@ imgspread spreads a thumbnail to a bigger image inside the text and pans the sur
 
 Imho an unobtrusive alternative to [modal window](https://en.wikipedia.org/wiki/Modal_window) like [fancyboxing](https://fancybox.net).
 
+## Usage
+
+```
+<script src="https://cdn.jsdelivr.net/gh/klml/imgspread@latest/imgspread.js" type="text/javascript"></script>
+<script type="text/javascript">
+    window.addEventListener("load", function () {
+        imgspread("");
+    });
+</script>
+```
+
+Use custom CSS-class:
+
+```
+<script src="https://cdn.jsdelivr.net/gh/klml/imgspread@latest/imgspread.js" type="text/javascript"></script>
+<script type="text/javascript">
+    window.addEventListener("load", function () {
+        imgspread("my_custom_class");
+    });
+</script>
+```
+
+
 ## Similar approach
 
 * [version for mediawiki](http://regionales-wirtschaften-wiki.de/Kleinstkraftwerke) with [srcset attribute](http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/), script [on wikipedia](https://de.wikipedia.org/wiki/Benutzer:VanGore/common.js).
