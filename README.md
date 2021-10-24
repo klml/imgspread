@@ -9,7 +9,6 @@ Imho an unobtrusive alternative to [modal window](https://en.wikipedia.org/wiki/
 
 ## Similar approach
 
-* regional east bavarian newspaper [idowa.de](http://www.idowa.de/region/artikel/2014/06/30/schneller-als-der-wind-ein-tag-mit-einem-luftbeobachter.html) with smooth zoom
 * [version for mediawiki](http://regionales-wirtschaften-wiki.de/Kleinstkraftwerke) with [srcset attribute](http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/), script [on wikipedia](https://de.wikipedia.org/wiki/Benutzer:VanGore/common.js).
 
 ## Usability
