@@ -1,4 +1,4 @@
-function imgspread(imgspread_class) {
+function imgspread(imgspread_class="imgspread") {
 
     var imgspread_classes = document.getElementsByClassName(imgspread_class);
 
