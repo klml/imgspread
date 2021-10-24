@@ -1,20 +1,18 @@
-(function($){
-     $.fn.extend({ 
+function imgspread(imgspread_class) {
 
-         imgspread: function(options) {
+    var imgspread_classes = document.getElementsByClassName(imgspread_class);
 
-            return this.each(function() {
+    for (var classes = 0; classes < imgspread_classes.length; ++classes) {
 
-                 $(this).click( function ( event ) {
-                    var img = $(this).find('img') ,
-                        src = img.attr('src') ,
-                        href = $(this).attr('href') ;
-            
-                    img.attr('src', href ) ;
-                    $(this).attr('href', src ) ;
-                    event.preventDefault();
-                });
+        var a = imgspread_classes[classes].getElementsByTagName("a");
+
+        for (var links = 0; links < a.length; ++links) {
+            a[links].addEventListener("click", function() {
+                var old_src = this.getElementsByTagName("img")[0].src;
+                this.getElementsByTagName("img")[0].src = this.href;
+                this.href = old_src;
+                event.preventDefault();
             });
         }
-    });
-})(jQuery);
+    }
+}
