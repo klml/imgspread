@@ -3,9 +3,9 @@ imgspread
 
 imgspread spreads a thumbnail to a bigger image inside the text and pans the surrounding or beneath text.
 
-[Demo](http://klml.github.io/imgspread/) and kind a [Gallery](http://klml.github.io/imgspread/gallery.html).
+[Demo](https://klml.github.io/imgspread/) and kind a [Gallery](https://klml.github.io/imgspread/gallery.html).
 
-Imho an unobtrusive alternative to [modal window](https://en.wikipedia.org/wiki/Modal_window) like[fancyboxing](http://fancybox.net).
+Imho an unobtrusive alternative to [modal window](https://en.wikipedia.org/wiki/Modal_window) like [fancyboxing](https://fancybox.net).
 
 ## Similar approach
 
